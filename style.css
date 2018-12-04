@@ -2,6 +2,9 @@
 	box-sizing: border-box;
 	font-family: 'Lato', sans-serif;
 }
+.template {
+	display: none;
+}
 body {
 	display: flex;
 	margin: 0;
