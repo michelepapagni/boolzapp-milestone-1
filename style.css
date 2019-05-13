@@ -28,9 +28,6 @@ header {
 .f-left {
 	float: left;
 }
-.cl-t {
-	clear: both;
-}
 .container {
 	margin: auto;
 	width: 80%;
@@ -76,7 +73,7 @@ header {
 	text-align: right;
 }
 .header-left .header-left-icons i, .header-right .header-right-icons i {
-	color: #6B7376;
+	color: rgb(177, 177, 177);
 	font-size: 22px;
 	margin: auto 10px;
 }
@@ -229,6 +226,12 @@ header {
 	z-index: 9999;
 	border-radius: 10px;
 	font-size: 15px;
+}
+.right .right-messages .message::after {
+	content: '';
+	display: table;
+	overflow: hidden;
+	clear: both;
 }
 .right .right-messages .message:hover .message-options, .right .right-messages .message .message-options.active {
 	display: block;
